@@ -1,0 +1,37 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 2.4rem 3.2rem;
+}
+
+.navigation h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.navigation ul {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navigation-link:link,
+.navigation-link:visited {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: inherit;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.35s;
+}
+
+.navigation-link:hover,
+.navigation-link:active {
+  color: #1d94f6;
+}
+
+.navigation-link.navigation-link--active {
+  color: #1d94f6;
+}

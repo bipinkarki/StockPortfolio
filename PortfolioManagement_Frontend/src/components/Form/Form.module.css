@@ -1,0 +1,40 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding-bottom: 1.6rem;
+}
+
+.form-control:first-child {
+  padding-top: 3.6rem;
+}
+
+.form-control label {
+  font-size: 1.6rem;
+}
+
+.form-control select,
+.form-control input {
+  padding: 1.2rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  border: 1px solid #333;
+}
+
+.form-action {
+  display: block;
+  width: 50%;
+  padding: 1.6rem 3.2rem;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 1rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background-color 0.35s;
+}
+
+.form-action:hover {
+  background-color: rgb(109, 243, 109);
+}
