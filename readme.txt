@@ -9,7 +9,7 @@ Portfolio Management System :
 1.After installing node dependencies
 #To add stock to the database :
 
-https://localhost:90/add/stockname
+http://localhost:90/add/stockname
 
 After Adding stock name by the admin.
 
